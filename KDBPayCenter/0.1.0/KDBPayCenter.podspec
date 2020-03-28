@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   s.dependency 'HFTCategroy'
   s.dependency 'KDBNetwork'
   s.dependency 'KDBDataCacher'
-  s.dependency 'HFTPaySDK', '1.1.10'
+  s.dependency 'HFTPaySDK'
 
   s.frameworks = 'StoreKit'
 

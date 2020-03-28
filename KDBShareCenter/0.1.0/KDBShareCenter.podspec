@@ -41,7 +41,7 @@ TODO: 分享组件 可以支持友盟SDK.
   s.dependency 'HFTNavigation'
   s.dependency 'HFTCommonDefinition'
   s.dependency 'HFTHud'
-  s.dependency 'HFTPaySDK', '1.1.10'
+  s.dependency 'HFTPaySDK'
   s.dependency 'KDBCommon'
   s.dependency 'KDBCommonModel'
   s.dependency 'KDBNetwork'
