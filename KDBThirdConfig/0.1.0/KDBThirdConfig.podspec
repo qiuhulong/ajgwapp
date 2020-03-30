@@ -36,7 +36,7 @@ TODO: Use HFT ErpThirdConfig Lib description.
   s.vendored_frameworks = 'ErpThirdConfig/Framework/*.framework'
 
   #s.source_files = "ErpThirdConfig/ErpApp/Modules/Classes/**/*"
-  s.dependency 'IQKeyboardManager', '5.0.8'
+  s.dependency 'IQKeyboardManager'
   s.dependency 'HFTTools'
 
 end
