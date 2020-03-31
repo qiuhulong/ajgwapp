@@ -33,7 +33,7 @@ TODO: Use HFT HFTNetwork Lib description.
   #s.source_files = "HFTNetworkKit/HFTNetworkKit/HFTNetworkKit/*.h","HFTNetworkKit/HFTNetworkKit/HFTNetworkKit/HFTHttpManager/*.{h,m}"
   s.vendored_frameworks = 'HFTNetworkKit/Framework/HFTNetwork.framework'
 
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '3.2.1'
   s.dependency 'HFTCategroy'
 
 end
