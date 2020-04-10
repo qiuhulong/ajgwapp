@@ -33,8 +33,8 @@ Pod::Spec.new do |s|
 
   #s.source_files = 'RobOrderModule/ErpApp/Modules/Classes/**/*'
 
-  s.vendored_frameworks = 'AJGWRobOrderModule/Framework/*.framework'
-  s.resources = 'AJGWRobOrderModule/ErpApp/Modules/Assets/RobOrderResource.bundle'
+  s.vendored_frameworks = 'RobOrderModule/Framework/*.framework'
+  s.resources = 'RobOrderModule/ErpApp/Modules/Assets/RobOrderResource.bundle'
   s.frameworks = 'UIKit', 'AVFoundation'
 
 
