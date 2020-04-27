@@ -57,13 +57,24 @@ Pod::Spec.new do |s|
       s.dependency 'KDBWebKit'
       s.dependency 'HFTMapKit'
       s.dependency 'KDBDataRefresher'
+      s.dependency 'KDBCommon'
+      s.dependency 'KDBRouter'
+      s.dependency 'KDBNetwork'
+      s.dependency 'KDBRegSectionKit'
+      s.dependency 'KDBShareCenter'
+
+
+
+      s.dependency 'KDBWebKit'
+      s.dependency 'HFTMapKit'
+      s.dependency 'KDBDataRefresher'
       s.dependency 'KDBDataCacher'
       s.dependency 'KDBCommon'
       s.dependency 'KDBRouter'
       s.dependency 'KDBNetwork'
-      #s.dependency 'ErpRegSecUsageTypeKit'
+      s.dependency 'KDBRegSectionKit'
       s.dependency 'KDBShareCenter'
-      s.dependency 'KDBTracker'
-      s.dependency 'KDBFaceId'
+      # s.dependency 'KDBTracker'
+      # s.dependency 'KDBFaceId'
 
 end
