@@ -13,7 +13,7 @@ TODO: Use HFT HomeModule Lib description.
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "fakepinge" => "fakepinge@gmail.com" }
 
-  s.source={:svn=>"http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBChatModule/trunk"}
+  s.source={:svn=>"http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBChatModule/branches/branches_group_ 402"}
   s.ios.deployment_target = "8.0"
 
   s.resources =  "kaidanbao/Modules/Assets/*.bundle"
