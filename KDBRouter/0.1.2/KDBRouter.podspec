@@ -38,5 +38,6 @@ TODO: Use HFT ErpRouter Lib description.
   s.dependency 'HFTCategroy'
   s.dependency 'KDBCommon'
   s.dependency 'KDBThirdConfig'
+  #hhhhhh
 
 end
