@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.dependency 'KDBWebKit'
   #Toast
   s.dependency 'Toast'
-  #hhhhhhhhhhhh
+  #hhhhhhhhhhhhhhhh
 
 
 end
