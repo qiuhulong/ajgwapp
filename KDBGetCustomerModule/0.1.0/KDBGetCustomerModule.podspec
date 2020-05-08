@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author       = {"shenghai" => "shenghairen@gmail.com" }
   s.ios.deployment_target='8.0'
   s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBGetCustomerModule/branches/branches_402"}
+  #s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBGetCustomerModule/branches/branches_group_ 402_积分改版"}
 
   s.resource = 'kaidanbao/Modules/Assets/*.bundle'
   s.vendored_frameworks = 'Framework/*.framework'

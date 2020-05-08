@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = {"shenghai" => "shenghairen@gmail.com" }
   s.ios.deployment_target='8.0'
-  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBMineModule/trunk"}
+  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBMineModule/branches/branches_group_ 402_积分改版"}
 
   s.resource = 'kaidanbao/Modules/Assets/*.bundle','kaidanbao/libexidcard/**/*.lib'
   s.vendored_libraries = 'kaidanbao/libexidcard/**/*.a'
@@ -35,5 +35,5 @@ Pod::Spec.new do |s|
  s.dependency 'KDBRegSectionKit'
  s.dependency 'KDBFaceId'
 
-
+#ppppp
 end
