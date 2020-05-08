@@ -7,11 +7,11 @@ Pod::Spec.new do |s|
   s.author       = {"shenghai" => "shenghairen@gmail.com" }
   s.ios.deployment_target='8.0'
   s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBGetCustomerModule/branches/branches_402"}
-  #s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBGetCustomerModule/branches/branches_group_ 402_积分改版"}
+  # s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBGetCustomerModule/branches/branches_group_ 402_积分改版"}
 
   s.resource = 'kaidanbao/Modules/Assets/*.bundle'
-  s.vendored_frameworks = 'Framework/*.framework'
-  #s.source_files = "kaidanbao/Modules/Classes/**/*"
+  # s.vendored_frameworks = 'Framework/*.framework'
+  s.source_files = "kaidanbao/Modules/Classes/**/*"
 
   s.dependency 'Masonry'
   s.dependency 'BlocksKit', '~> 2.2.5'
@@ -41,6 +41,14 @@ Pod::Spec.new do |s|
   s.dependency 'KDBWebKit'
   #Toast
   s.dependency 'Toast'
+  s.dependency 'KDBTools'
+  s.dependency 'KDBSensitiveWord'
+  s.dependency 'KDBTrendChart'
+
+
+
+  #hhhhhhhhhh
+
 #hhhhhhhhhh
 
 
