@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = {"shenghai" => "shenghairen@gmail.com" }
   s.ios.deployment_target='8.0'
-  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBGetCustomerModule/trunk"}
+  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBGetCustomerModule/branches/branches_402"}
 
   s.resource = 'kaidanbao/Modules/Assets/*.bundle'
   s.vendored_frameworks = 'Framework/*.framework'
@@ -40,6 +40,7 @@ Pod::Spec.new do |s|
   s.dependency 'KDBWebKit'
   #Toast
   s.dependency 'Toast'
+#hhhhhhhhhh
 
 
 end
