@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBHouseModule/trunk"}
 
   s.resource = 'kaidanbao/Modules/Assets/*.bundle'
-  s.vendored_frameworks = 'Framework/KDBHouseModule.framework'
-  #s.source_files = "kaidanbao/Modules/Classes/**/*"
+  #s.vendored_frameworks = 'Framework/KDBHouseModule.framework'
+  s.source_files = "kaidanbao/Modules/Classes/**/*"
 
   s.dependency 'Masonry'
   s.dependency 'BlocksKit', '~> 2.2.5'
@@ -46,6 +46,11 @@ Pod::Spec.new do |s|
   s.dependency 'KDBWebKit'
   #Toast
   s.dependency 'Toast'
+  s.dependency 'KDBTools'
+  s.dependency 'KDBSensitiveWord'
+
+  #hhhhhhhhhhhhhhhh
+  #hhhhhhhhhhhhhhhh
   #hhhhhhhhhhhhhhhh
   #hhhhhhhhhhhhhhhh
 
