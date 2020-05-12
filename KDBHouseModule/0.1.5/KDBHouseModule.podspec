@@ -50,11 +50,6 @@ Pod::Spec.new do |s|
   s.dependency 'KDBSensitiveWord'
 
   #hhhhhhhhhhhhhhhh
-  #hhhhhhhhhhhhhhhh
-  #hhhhhhhhhhhhhhhh
-  #hhhhhhhhhhhhhhhh
-  #hhhhhhhhhhhhhhhh
-#hhhhhh
 
 
 end
