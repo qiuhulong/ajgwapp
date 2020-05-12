@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "KDBGetCustomerModule"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "iOS Login"
   s.homepage     = "https://github.com/hftsoft/hftapp.git"
   s.license      = "MIT"
   s.author       = {"shenghai" => "shenghairen@gmail.com" }
   s.ios.deployment_target='8.0'
-  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBGetCustomerModule/branches/branches_402"}
+  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBGetCustomerModule/trunk"}
 
   s.resource = 'kaidanbao/Modules/Assets/*.bundle'
   s.vendored_frameworks = 'Framework/*.framework'
