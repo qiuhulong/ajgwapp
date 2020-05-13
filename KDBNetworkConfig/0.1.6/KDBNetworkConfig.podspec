@@ -23,7 +23,7 @@ TODO: Use HFT ErpNetworkConfig Lib description.
   s.ios.deployment_target = '8.0'
 
   #s.source_files = 'ErpNetworkConfigLib/ErpNetworkConfigLib/Classes/**/*.{h,m}'
-  s.vendored_frameworks = 'ErpNetworkConfigLib/Framework/Release/*.framework'
+  s.vendored_frameworks = 'ErpNetworkConfigLib/Framework/Debug/*.framework'
 
   s.dependency 'HFTTools'
   s.dependency 'HFTCategroy'
