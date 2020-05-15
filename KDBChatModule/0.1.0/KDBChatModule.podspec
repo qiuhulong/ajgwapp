@@ -18,7 +18,7 @@ TODO: Use HFT HomeModule Lib description.
 
   s.resources =  "kaidanbao/Modules/Assets/*.bundle"
   s.vendored_frameworks =  "Framework/KDBChatModule.framework"
-  # s.source_files = "kaidanbao/Modules/Classes/**/*"
+  #s.source_files = "kaidanbao/Modules/Classes/**/*"
   s.dependency 'HFTCommonDefinition'
   s.dependency 'HFTCategroy'
   s.dependency 'Masonry'
