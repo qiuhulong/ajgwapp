@@ -41,6 +41,5 @@ Pod::Spec.new do |s|
   #Toast
   s.dependency 'Toast'
 
-#hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-
+#hhhhhhhhhhhhhh
 end
