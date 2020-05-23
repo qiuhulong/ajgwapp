@@ -33,7 +33,7 @@ TODO: 分享组件 可以支持友盟SDK.
   #s.source_files = "Example/ShareCenter/HFTShareCenter/Classes/**/*"
   s.resource = 'Example/ShareCenter/HFTShareCenter/Assets/**/*.bundle'
 
-  s.vendored_frameworks = 'Example/Framework/Debug/*.framework'
+  s.vendored_frameworks = 'Example/Framework/Release/*.framework'
 
   s.dependency 'SDWebImage'
   s.dependency 'Masonry'
