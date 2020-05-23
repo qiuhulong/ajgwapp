@@ -77,6 +77,5 @@ Pod::Spec.new do |s|
       # s.dependency 'KDBTracker'
       # s.dependency 'KDBFaceId'
 
-#hhhhhhhhhhhhhhhhhhhhhhhhhhhh
-
+#hhhhhh
 end
