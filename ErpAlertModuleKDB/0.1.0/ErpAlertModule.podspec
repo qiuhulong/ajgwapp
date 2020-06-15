@@ -25,15 +25,15 @@ Use HFT ErpCommon Lib description.
   s.dependency 'HFTCommonDefinition'
   s.dependency 'Masonry'
   s.dependency 'HFTCategroy'
-  s.dependency 'ErpNetwork'
-  s.dependency 'ErpRouter'
-  s.dependency 'ErpCommon'
-  s.dependency 'ErpTools'
-  s.dependency 'HFTPayCenter'
-  s.dependency 'GlobalDataRefresher'
-  s.dependency 'GlobalDataCacher'
+  s.dependency 'KDBNetwork'
+  s.dependency 'KDBRouter'
+  s.dependency 'KDBCommon'
+  s.dependency 'KDBTools'
+  s.dependency 'KDBPayCenter'
+  s.dependency 'KDBDataRefresher'
+  s.dependency 'KDBDataCacher'
   s.dependency 'RZColorful'
   # 行为记录
-  s.dependency 'HFTTracker'
+  s.dependency 'AJGWTracker'
 #hhhhhhhh
 end
