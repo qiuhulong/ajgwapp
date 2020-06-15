@@ -81,6 +81,8 @@ Pod::Spec.new do |s|
   s.dependency 'KDBNetwork'
   s.dependency 'KDBDataCacher'
   s.dependency 'HFTPaySDK'
+  s.dependency 'AJGWTracker'
+#dsdddd
 
   s.frameworks = 'StoreKit'
 
