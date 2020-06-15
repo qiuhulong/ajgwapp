@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mi' => '906351101@qq.com' }
-  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/AJGWRobOrderModule/trunk"}
+  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/AJGWRobOrderModule/branches/branches会员"}
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
