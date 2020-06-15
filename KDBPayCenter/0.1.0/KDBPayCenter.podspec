@@ -67,7 +67,7 @@ Pod::Spec.new do |s|
 
   s.resource = 'HFTPayCenter/ErpApp/Module/Assets/**/*.bundle'
   #s.source_files = "HFTPayCenter/ErpApp/Module/Classes/**/*"
-  s.vendored_frameworks = 'HFTPayCenter/Framework/HFTPayCenter.framework'
+  s.vendored_frameworks = 'HFTPayCenter/Framework/*.framework'
 
 
 
