@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "leocll" => "leocll@qq.com" }
-  s.source           = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBWCExtendModule/trunk" }
+  s.source           = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBWCExtendModule/branches/branches_group_816" }
   s.ios.deployment_target = "8.0"
   s.resources = "kaidanbao/Modules/Assets/*.bundle"
   s.vendored_frameworks = 'Framework/*.framework'
