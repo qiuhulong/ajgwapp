@@ -35,5 +35,7 @@ Use HFT ErpCommon Lib description.
   s.dependency 'RZColorful'
   # 行为记录
   s.dependency 'AJGWTracker'
+  s.dependency 'KDBLoginModule'
+
 #hhhhhhhh
 end
