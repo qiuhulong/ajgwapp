@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'ErpAlertModule'
-  s.version          = '0.1.1'
+  s.name             = 'ErpAlertModuleKDB'
+  s.version          = '0.1.2'
   s.summary          = 'HFT ErpCommon Lib..'
 
   s.description      = <<-DESC
@@ -35,5 +35,9 @@ Use HFT ErpCommon Lib description.
   s.dependency 'RZColorful'
   # 行为记录
   s.dependency 'AJGWTracker'
+  s.dependency 'KDBLoginModule'
+
 #hhhhhhhh
+#hhhhhhhh
+
 end
