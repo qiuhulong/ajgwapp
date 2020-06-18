@@ -53,6 +53,8 @@ Pod::Spec.new do |s|
 #hhhhhhasdasd
 #hhhhhhasdas
 #hhhhhhasdasd
-#hhhhhh
+#hhhhhh#hhhhhhasdasd
+#hhhhhhasdasd
+
 
 end
