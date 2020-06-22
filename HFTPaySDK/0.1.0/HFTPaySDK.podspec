@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary          = 'HFT HFTPaySDK Lib.'
 
   s.description      = <<-DESC
-TODO: Use HFT HFTPaySDK Lib description. 包含支付
+TODO: Use HFT HFTPaySDK Lib description.
                        DESC
 
   s.homepage         = 'https://github.com/hftsoft/hftapp.git'
@@ -26,29 +26,27 @@ TODO: Use HFT HFTPaySDK Lib description. 包含支付
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
 
-  s.subspec 'HFTAliPaySDK' do |ss|
-    ss.resource = 'HFTPaySDKDemo/AliPayDemo/PaySDK/AliPay/AlipaySDK.bundle'
-    ss.frameworks = 'SystemConfiguration','CoreTelephony','QuartzCore','CoreText','CoreGraphics','UIKit','Foundation','CFNetwork','CoreMotion'
-    ss.vendored_frameworks = 'HFTPaySDKDemo/AliPayDemo/PaySDK/AliPay/AlipaySDK.framework'
-    ss.libraries  = 'c++','z'
-  end
+  # s.subspec 'HFTAliPaySDK' do |ss|
+  #   ss.resource = 'HFTPaySDKDemo/AliPayDemo/PaySDK/AliPay/AlipaySDK.bundle'
+  #   ss.frameworks = 'SystemConfiguration','CoreTelephony','QuartzCore','CoreText','CoreGraphics','UIKit','Foundation','CFNetwork','CoreMotion'
+  #   ss.libraries  = 'c++','z'
+  # end
+  #
+  # s.subspec 'HFTWeChatSDK' do |ss|
+  #   ss.dependency 'WechatOpenSDK'
+  # end
 
-  s.subspec 'HFTWeChatSDK' do |ss|
-    # ss.dependency 'WechatOpenSDK'
-    ss.dependency 'UMCCommon'
-    ss.dependency 'UMCShare/Social/WeChat', '~> 6.9.8'
-    ss.dependency 'UMCShare/Social/AlipayShare', '~> 6.9.8'
-  end
+  # s.vendored_frameworks = "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/UMShare.framework"
+  # s.vendored_libraries = "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/Social/WeChat/*.a", "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/Social/WeChat/WechatSDK/*.a", "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/Social/QQ/*.a"
+  # s.source_files = "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/Social/WeChat/*.{h,m}", "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/Social/WeChat/WechatSDK/*.{h,m}", "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/Social/QQ/*.{h,m}"
+  # s.public_header_files = "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/Social/WeChat/*.h", "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/Social/WeChat/WechatSDK/*.h", "HFTPaySDKDemo/AliPayDemo/PaySDK/UMShare/Social/QQ/*.h"
+  #
+  # s.frameworks = "CoreGraphics", "SystemConfiguration", "CoreTelephony"
+  # s.libraries = "z", "sqlite3", "c++"
 
-
-
-
-  # # 微信不包含支付
-  # s.source_files = "HFTPaySDKDemo/AliPayDemo/PaySDK/WeChat/*.{h}"
-  # s.vendored_libraries = "HFTPaySDKDemo/AliPayDemo/PaySDK/WeChat/*.a"
-  # s.frameworks = "SystemConfiguration", "Security", "CoreTelephony", "CFNetwork", "UIKit"
-  # s.libraries = "z", "sqlite3.0", "c++"
-
-
+  # 支付模块和分享模块使用
+  s.dependency 'UMCCommon'
+  s.dependency 'UMCShare/Social/WeChat', '~> 6.9.8'
+  s.dependency 'UMCShare/Social/ReducedQQ', '~> 6.9.8'
 
 end
