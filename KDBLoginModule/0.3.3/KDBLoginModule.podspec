@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.resource = 'kaidanbao/Modules/Assets/LoginModule.bundle'
 
-  s.vendored_frameworks = 'Framework/Debug/KDBLoginModule.framework'
+  s.vendored_frameworks = 'Framework/Release/KDBLoginModule.framework'
   #s.source_files = "kaidanbao/Modules/Classes/**/*"
 
 
