@@ -1,17 +1,18 @@
 Pod::Spec.new do |s|
-  s.name         = "KDBHomeModule"
-  s.version      = "0.2.7"
+  s.name         = "KDBMineModule"
+  s.version      = "0.3.2"
   s.summary      = "iOS Login"
   s.homepage     = "https://github.com/hftsoft/hftapp.git"
   s.license      = "MIT"
   s.author       = {"shenghai" => "shenghairen@gmail.com" }
   s.ios.deployment_target='8.0'
-  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBHomeModule/branches/branches_zhifubao"}
+  s.source       = { :svn => "http://172.16.140.92:9001/svndata/mobileProduct/IOSDepartment/AJGWComponets/KDBModule/KDBMineModule/trunk"}
 
-  s.resource = 'kaidanbao/Modules/Assets/*.bundle'
-  s.vendored_frameworks = 'Framework/KDBHomeModule.framework'
+  s.resource = 'kaidanbao/Modules/Assets/*.bundle','kaidanbao/libexidcard/**/*.lib'
+  s.vendored_libraries = 'kaidanbao/libexidcard/**/*.a'
+  s.vendored_frameworks = 'Framework/KDBMineModule.framework'
   #s.source_files = "kaidanbao/Modules/Classes/**/*"
-  s.dependency 'XRCarouselView', '~> 2.6.1'
+
   # 宏定义
   s.dependency 'HFTCommonDefinition'
   # 扩展
@@ -27,5 +28,12 @@ Pod::Spec.new do |s|
   s.dependency 'HFTTools'
   s.dependency 'HFTMapKit'
 
+ s.dependency  'KDBNetwork'
+ s.dependency 'KDBCommon'
+ s.dependency 'KDBTools'
+ s.dependency 'KDBWebKit'
+ s.dependency 'KDBRegSectionKit'
+ s.dependency 'KDBFaceId'
+#hhhhhhhhhhhhhhhh
 
 end
